@@ -1,5 +1,5 @@
 - name: Install LAMP on remote server
-  hosts: localhost
+  hosts: remote
   become: yes
 
   tasks:

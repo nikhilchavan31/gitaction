@@ -100,3 +100,20 @@ ls
 cd /var/lib/jenkins/workspace
 ls
 ls demo
+sudo apt update
+sudo apt install fontconfig openjdk-21-jre
+java -version
+sudo nano hosts.ini
+sudo nano jenkins.yml
+y
+sudo nano jenkins.yml
+y
+sudo nano hosts.ini
+y
+ansible-paybook -i hosts.ini jenkins.yml
+ansible-playbook -i hosts.ini jenkins.yml
+ls
+jenkins -v
+\
+cd /usr/share/java/jenkins.war
+ls
