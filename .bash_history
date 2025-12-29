@@ -76,3 +76,27 @@ ansible-playbook -i hello.ini one.yml
 ls
 ls
 cat hello.ini
+ls
+systemctl status apache2
+git add .
+git status
+git commit -m "by"
+git status 
+git push origin master
+ls
+cd /var
+ls
+cd /lib/jenkins/workspace/
+cd /lib/jenkins/workspace
+cd /lib
+ls
+cd/
+cd /
+ls
+cd /
+ls
+cd /home/ubuntu
+ls
+cd /var/lib/jenkins/workspace
+ls
+ls demo
