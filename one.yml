@@ -1,0 +1,12 @@
+- name: install web package
+  hosts: web
+  become: true
+  tasks:
+   - name: insatll nginx
+     apt:
+       name: nginx
+       state: present
+   - name: start nginx
+     service:
+        name: nginx
+        state: started
