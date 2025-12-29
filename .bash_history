@@ -117,3 +117,80 @@ jenkins -v
 \
 cd /usr/share/java/jenkins.war
 ls
+ls
+jenkins -version
+ls
+ansible-playbook -i hosts.ini jenkins.yml
+jenkins -version
+sudo lsof -i :8080
+sudo nano /etc/default/jenkins
+y
+systemctl status jenkins
+sudo systemctl restart jenkins
+systemctl status jenkins
+/var/lib/jenkins/secrets/initialAdminPassword
+cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ls
+git -v
+gi init
+git init
+git config --global user.name ="nikhilchavan31"
+git config --global user.email ="nikhilchavan7820@gmail.com"
+git pull "https://github.com/nikhilchavan31/gitaction.git"
+git remote add origin master 
+git add .
+git status
+git commit -m "demo"
+git staus
+git status
+git push origin master
+git push origin main
+git push origin master "https://github.com/nikhilchavan31/gitaction.git"
+git status
+tree
+sudo apt  install tree
+tree
+history
+git remote add origin https://github.com/nikhilchavan31/gitaction.git
+git remote add origin "https://github.com/nikhilchavan31/gitaction.git"
+git push origin master
+git status
+git branch
+git remote -v
+git push -u origin master
+git remote remove origin
+git remote add origin https://github.com/nikhilchavan31/gitaction.git
+git push origin master
+git status
+sudo nano lemp.yml
+systemctl stop nginx
+sudo systemctl stop nginx
+sudo systemctl status nginx
+ls
+cat one.yml
+cat hosts.ini
+ansible-playbook -i hosts.ini lemp.yml
+sudo visudo
+y
+sudo visudo
+sudo systemctl restart jenkins
+sudo visudo
+whoami
+sudo visudo
+sudo -u ubuntu sudo apt update
+cd /var/lib/jenkins/workspace/demo
+ls
+cd
+ls
+sudo mv /home/ubuntu/lemp.yml home/ubuntu/var/lib/jenkins/workspace/demo/
+cd /var/lib/jenkins/workspace/demo
+pwd
+sudo mv /home/ubuntu/lemp.yml /var/lib/jenkins/workspace/demo/
+ls
+cd 
+ls
+cat hosts.ini 
+sudo nano hosts.ini
+y
+sudo su -
